@@ -48,7 +48,7 @@ storage:
   # 用于 MCP Server 等场景：爬虫存到远程，MCP 拉取到本地分析
   pull:
     enabled: false            # 是否启用启动时自动拉取
-    days: 7                   # 拉取最近 N 天的数据（0 = 不拉取）
+    days: 60                   # 拉取最近 N 天的数据（0 = 不拉取）
 
 crawler:
   request_interval: 1000 # 请求间隔(毫秒)
